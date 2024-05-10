@@ -1,14 +1,9 @@
 import { Meta, StoryObj } from '@storybook/react';
-import { Link } from '../components/_ui/Link';
+import { Link } from '@/components/index';
 
 const meta = {
   title: 'UI/Link',
   component: Link,
-  argTypes: {
-    iconVisible: {
-      type: 'boolean',
-    },
-  },
 } satisfies Meta<typeof Link>;
 
 export default meta;

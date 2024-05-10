@@ -1,19 +1,15 @@
 import { cva, VariantProps } from 'class-variance-authority';
 import { ButtonOrLink, Props as ButtonOrLinkProps } from './ButtonOrLink';
 
-const linkStyles = cva('font-medium', {
+const linkStyles = cva('link', {
   variants: {
     intent: {
       primary: '',
       secondary: '',
     },
-    iconVisible: {
-      true: '',
-    },
   },
   defaultVariants: {
     intent: 'primary',
-    iconVisible: false,
   },
 });
 
@@ -21,8 +17,18 @@ export interface Props
   extends ButtonOrLinkProps,
     VariantProps<typeof linkStyles> {}
 
-export function Link({ intent, iconVisible, ...props }: Props) {
+export const Link = ({
+  intent,
+  isIconVisible = false,
+  iconLeft,
+  iconRight,
+  ...props
+}: Props) => {
   return (
-    <ButtonOrLink className={linkStyles({ intent, iconVisible })} {...props} />
+    <ButtonOrLink className={linkStyles({ intent })} {...props}>
+      {isIconVisible && iconLeft}
+      {props.children}
+      {isIconVisible && iconRight}
+    </ButtonOrLink>
   );
-}
+};

@@ -1,14 +1,9 @@
 import { Meta, StoryObj } from '@storybook/react';
-import { Button } from '../components/_ui/Button';
+import { Button } from '@/components/index';
 
 const meta = {
   title: 'UI/Button',
   component: Button,
-  argTypes: {
-    iconVisible: {
-      type: 'boolean',
-    },
-  },
 } satisfies Meta<typeof Button>;
 
 export default meta;

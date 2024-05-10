@@ -2,14 +2,18 @@ import { ComponentProps } from 'react';
 import Link from 'next/link';
 
 type ButtonOrLinkProps = ComponentProps<'button'> & ComponentProps<'a'>;
-export interface Props extends ButtonOrLinkProps {}
+export interface Props extends ButtonOrLinkProps {
+  isIconVisible?: boolean;
+  iconLeft?: React.ReactNode;
+  iconRight?: React.ReactNode;
+}
 
 /**
  * Polymorphic component that renders either a button or a link,
  * depending on if the `href` prop is passed.
  */
 
-export function ButtonOrLink({ href, ...props }: Props) {
+export const ButtonOrLink = ({ href, ...props }: Props) => {
   const isLink = typeof href !== 'undefined';
   const ButtonOrLink = isLink ? 'a' : 'button';
 
@@ -24,4 +28,4 @@ export function ButtonOrLink({ href, ...props }: Props) {
   }
 
   return content;
-}
+};
