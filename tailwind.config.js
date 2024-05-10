@@ -40,10 +40,13 @@ module.exports = {
           blue: '#45C9C1',
         },
       },
+      boxShadow: {
+        'solid': '6px 6px 0 0 rgba(8, 10, 71)',
+      },
     },
   },
   plugins: [
-    require('@tailwindcss/typography'),
+    require('daisyui'),
     plugin(({ addBase, theme }) => {
       addBase({
         html: { color: theme('colors.primary') },
