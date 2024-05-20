@@ -16,29 +16,12 @@ module.exports = {
         current: 'currentColor',
         primary: '#080A47',
         secondary: '#3A30BA',
-        pink: {
-          100: '#F7CEDC',
-          200: '#F480D4',
-        },
-        green: {
-          100: '#E6FFD7',
-          200: '#00B67A',
-        },
-        paste: '#CCEFF6',
+        lightPink: '#FFF9F3',
+        deepPink: '#F7CEDC',
         yellow: '#FAEA73',
-        neutral: {
-          100: '#FFF',
-          200: '#FFF9F3',
-          300: '#6D7D93',
-          400: '#9B9B9B',
-          500: '#3E3F59',
-          600: '#080A47',
-          700: '#000',
-        },
-        radial: {
-          pink: '#F480D4',
-          blue: '#45C9C1',
-        },
+        paste: '#CCEFF6',
+        lightGreen: '#E6FFD7',
+        green: '#00B67A'
       },
       boxShadow: {
         'solid': '6px 6px 0 0 rgba(8, 10, 71)',
