@@ -1,10 +1,23 @@
+// path: assets/img/content
+import mainDashboard from '@/assets/img/content/main-dashboard-overview.webp';
+import dashboard from '@/assets/img/content/dashboard-overview.webp';
+import moonspaceTimeline from '@/assets/img/content/moonspace-timeline.webp';
+import paymentOpttions from '@/assets/img/content/payment-options.webp';
+import reviewsRating from '@/assets/img/content/reviews-rating.webp';
+import topPerformaceDashboard from '@/assets/img/content/top-performace-dashboard.webp';
+
+// path: assets/img/users
+import audreaManessis from '@/assets/img/users/audrea-manessis.jpg';
+import dennisBargerstock from '@/assets/img/users/dennis-bargerstock.jpg';
+import juleeRossignol from '@/assets/img/users/julee-rossignol.jpg';
+import lareeMinton from '@/assets/img/users/laree-minton.jpg';
+import guadalupeDesimon from '@/assets/img/users/guadalupe-desimon.jpg';
+
 // path: assets/svg/icons
 import dollarSign from '@/assets/svg/icons/dollar-sign.svg';
 import gears from '@/assets/svg/icons/gears.svg';
 import mouseClicker from '@/assets/svg/icons/mouse-clicker.svg';
 import linkRightArrow from '@/assets/svg/icons/link-right-arrow.svg';
-
-export { dollarSign, gears, mouseClicker, linkRightArrow };
 
 // path: assets/svg/shapes
 import square1 from '@/assets/svg/shapes/square-1.svg';
@@ -15,19 +28,27 @@ import square5 from '@/assets/svg/shapes/square-5.svg';
 import square6 from '@/assets/svg/shapes/square-6.svg';
 import star from '@/assets/svg/shapes/star.svg';
 
-export { square1, square2, square3, square4, square5, square6, star };
-
-// path: assets/img/users
-import audreaManessis from '@/assets/img/users/audrea-manessis.jpg';
-import dennisBargerstock from '@/assets/img/users/dennis-bargerstock.jpg';
-import juleeRossignol from '@/assets/img/users/julee-rossignol.jpg';
-import lareeMinton from '@/assets/img/users/laree-minton.jpg';
-import guadalupeDesimon from '@/assets/img/users/guadalupe-desimon.jpg';
-
 export {
+  dollarSign,
+  gears,
+  mouseClicker,
+  linkRightArrow,
+  square1,
+  square2,
+  square3,
+  square4,
+  square5,
+  square6,
+  star,
   audreaManessis,
   dennisBargerstock,
   juleeRossignol,
   lareeMinton,
   guadalupeDesimon,
+  mainDashboard,
+  dashboard,
+  moonspaceTimeline,
+  paymentOpttions,
+  reviewsRating,
+  topPerformaceDashboard,
 };
