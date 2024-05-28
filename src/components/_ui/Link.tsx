@@ -1,7 +1,7 @@
 import { cva, VariantProps } from 'class-variance-authority';
 import { ButtonOrLink, Props as ButtonOrLinkProps } from './ButtonOrLink';
 
-const linkStyles = cva('link', {
+const linkStyles = cva('flex items-center justify-between gap-2', {
   variants: {
     intent: {
       primary: '',

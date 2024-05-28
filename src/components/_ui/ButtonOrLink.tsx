@@ -4,8 +4,8 @@ import Link from 'next/link';
 type ButtonOrLinkProps = ComponentProps<'button'> & ComponentProps<'a'>;
 export interface Props extends ButtonOrLinkProps {
   isIconVisible?: boolean;
-  iconLeft?: React.ReactNode;
-  iconRight?: React.ReactNode;
+  iconLeft?: JSX.Element;
+  iconRight?: JSX.Element;
 }
 
 /**
