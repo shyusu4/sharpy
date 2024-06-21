@@ -4,7 +4,7 @@ import dashboard from '@/assets/img/content/dashboard-overview.webp';
 import moonspaceTimeline from '@/assets/img/content/moonspace-timeline.webp';
 import paymentOpttions from '@/assets/img/content/payment-options.webp';
 import reviewsRating from '@/assets/img/content/reviews-rating.webp';
-import topPerformaceDashboard from '@/assets/img/content/top-performace-dashboard.webp';
+import topPerformanceDashboard from '@/assets/img/content/top-performance-dashboard.webp';
 
 // path: assets/img/users
 import audreaManessis from '@/assets/img/users/audrea-manessis.jpg';
@@ -12,6 +12,14 @@ import dennisBargerstock from '@/assets/img/users/dennis-bargerstock.jpg';
 import juleeRossignol from '@/assets/img/users/julee-rossignol.jpg';
 import lareeMinton from '@/assets/img/users/laree-minton.jpg';
 import guadalupeDesimon from '@/assets/img/users/guadalupe-desimon.jpg';
+
+// path: assets/svg/logos
+import martino from '@/assets/svg/logos/martino.svg';
+import sharpy from '@/assets/svg/logos/sharpy.svg';
+import squarestone from '@/assets/svg/logos/squarestone.svg';
+import vertex from '@/assets/svg/logos/vertex.svg';
+import virogan from '@/assets/svg/logos/virogan.svg';
+import waverio from '@/assets/svg/logos/waverio.svg';
 
 // path: assets/svg/icons
 import dollarSign from '@/assets/svg/icons/dollar-sign.svg';
@@ -29,6 +37,12 @@ import square6 from '@/assets/svg/shapes/square-6.svg';
 import star from '@/assets/svg/shapes/star.svg';
 
 export {
+  sharpy,
+  martino,
+  squarestone,
+  vertex,
+  virogan,
+  waverio,
   dollarSign,
   gears,
   mouseClicker,
@@ -50,5 +64,5 @@ export {
   moonspaceTimeline,
   paymentOpttions,
   reviewsRating,
-  topPerformaceDashboard,
+  topPerformanceDashboard,
 };

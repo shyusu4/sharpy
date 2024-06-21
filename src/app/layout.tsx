@@ -5,7 +5,7 @@ import './globals.css';
 const jakartaSans = Plus_Jakarta_Sans({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Sharpy',
+  title: 'Sharpy | Turn visitors into paid customers fast',
   description:
     'Turn your smartphone or tablet into a powerful software. Manage sales, inventory with ease; engage customers & increase your revenue.',
 };
