@@ -1,5 +1,6 @@
 import Header from '@/components/_navigation/Header';
 import Hero from '@/components/_sections/Hero';
+import Footer from '@/components/_navigation/Footer';
 
 import { Button } from '@/components/_ui/Button';
 import { CTAcard } from '@/components/_ui/CTAcard';
@@ -12,6 +13,7 @@ import { TestimonialCard } from '@/components/_ui/TestimonialCard';
 export {
   Header,
   Hero,
+  Footer,
   Button,
   FAQ,
   Link,
