@@ -12,7 +12,7 @@ export const ServicesCard: React.FC<CardProps> = ({ icon, title, content }) => {
       <div className="flex flex-col lg:flex-row gap-5 items-center justify-center lg:items-start">
         <div>{icon}</div>
         <div className="flex flex-col flex-1 text-center lg:text-left">
-          <h4 className="font-semibold">{title}</h4>
+          <h4 className="font-semibold text-lg">{title}</h4>
           <p className="mt-2">{content}</p>
         </div>
       </div>

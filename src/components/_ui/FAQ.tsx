@@ -1,9 +1,10 @@
 import { cva, VariantProps } from 'class-variance-authority';
 
-const faqStyles = cva('collapse max-w-xl', {
+const faqStyles = cva('collapse p-0', {
   variants: {
     intent: {
-      primary: 'collapse-arrow join-item border-b border-primary rounded-none',
+      primary:
+        'collapse-arrow join-item border-b last:border-b-0 border-primary rounded-none',
       secondary:
         'collapse-plus border border-primary mb-4 shadow-solid bg-white',
     },
@@ -32,10 +33,12 @@ export const FAQ: React.FC<FAQProps> = ({ items, intent }) => {
             defaultChecked={index === 0}
           />
           <div className="collapse-title">
-            <h3 className="text-xl font-semibold">{item.title}</h3>
+            <h3 className="text-xl font-bold py-5">{item.title}</h3>
           </div>
-          <div className="collapse-content max-w-sm md:max-w-lg">
-            <p className="text-base text-neutral-500">{item.content}</p>
+          <div className="collapse-content">
+            <p className="text-base text-neutral-500 font-semibold">
+              {item.content}
+            </p>
           </div>
         </div>
       ))}

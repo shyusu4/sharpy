@@ -4,8 +4,8 @@ import { ButtonOrLink, Props as ButtonOrLinkProps } from './ButtonOrLink';
 const linkStyles = cva('flex items-center justify-between gap-2', {
   variants: {
     intent: {
-      primary: '',
-      secondary: '',
+      primary: 'font-semibold',
+      secondary: 'font-bold',
     },
   },
   defaultVariants: {
