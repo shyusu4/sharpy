@@ -13,4 +13,9 @@
     font-weight: 600;
     line-height: 1rem;
   }
+
+  p {
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+  }
 }

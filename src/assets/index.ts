@@ -2,7 +2,7 @@
 import mainDashboard from '@/assets/img/content/main-dashboard-overview.webp';
 import dashboard from '@/assets/img/content/dashboard-overview.webp';
 import moonspaceTimeline from '@/assets/img/content/moonspace-timeline.webp';
-import paymentOpttions from '@/assets/img/content/payment-options.webp';
+import paymentOptions from '@/assets/img/content/payment-options.webp';
 import reviewsRating from '@/assets/img/content/reviews-rating.webp';
 import topPerformanceDashboard from '@/assets/img/content/top-performance-dashboard.webp';
 
@@ -26,6 +26,7 @@ import dollarSign from '@/assets/svg/icons/dollar-sign.svg';
 import gears from '@/assets/svg/icons/gears.svg';
 import mouseClicker from '@/assets/svg/icons/mouse-clicker.svg';
 import linkRightArrow from '@/assets/svg/icons/link-right-arrow.svg';
+import bulletPoint from '@/assets/svg/icons/bullet-point.svg';
 
 // path: assets/svg/shapes
 import square1 from '@/assets/svg/shapes/square-1.svg';
@@ -35,6 +36,7 @@ import square4 from '@/assets/svg/shapes/square-4.svg';
 import square5 from '@/assets/svg/shapes/square-5.svg';
 import square6 from '@/assets/svg/shapes/square-6.svg';
 import star from '@/assets/svg/shapes/star.svg';
+import yellowBlob from '@/assets/svg/shapes/yellow-blob.svg';
 
 export {
   sharpy,
@@ -47,6 +49,7 @@ export {
   gears,
   mouseClicker,
   linkRightArrow,
+  bulletPoint,
   square1,
   square2,
   square3,
@@ -54,6 +57,7 @@ export {
   square5,
   square6,
   star,
+  yellowBlob,
   audreaManessis,
   dennisBargerstock,
   juleeRossignol,
@@ -62,7 +66,7 @@ export {
   mainDashboard,
   dashboard,
   moonspaceTimeline,
-  paymentOpttions,
+  paymentOptions,
   reviewsRating,
   topPerformanceDashboard,
 };

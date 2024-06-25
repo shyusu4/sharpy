@@ -17,6 +17,7 @@ module.exports = {
         primary: '#080A47',
         secondary: '#3A30BA',
         lightPink: '#FFF9F3',
+        pink: '#F7CEDC',
         deepPink: '#EA7DD2',
         yellow: '#FAEA73',
         paste: '#CCEFF6',
