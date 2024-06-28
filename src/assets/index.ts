@@ -37,6 +37,8 @@ import square5 from '@/assets/svg/shapes/square-5.svg';
 import square6 from '@/assets/svg/shapes/square-6.svg';
 import star from '@/assets/svg/shapes/star.svg';
 import yellowBlob from '@/assets/svg/shapes/yellow-blob.svg';
+import pinkBlob from '@/assets/svg/shapes/pink-blob.svg';
+import blueBlob from '@/assets/svg/shapes/blue-blob.svg';
 
 export {
   sharpy,
@@ -58,6 +60,8 @@ export {
   square6,
   star,
   yellowBlob,
+  pinkBlob,
+  blueBlob,
   audreaManessis,
   dennisBargerstock,
   juleeRossignol,

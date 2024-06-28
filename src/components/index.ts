@@ -1,7 +1,15 @@
+/** _navigation **/
 import Header from '@/components/_navigation/Header';
-import Hero from '@/components/_sections/Hero';
 import Footer from '@/components/_navigation/Footer';
 
+/** _sections **/
+// _common
+
+// homepage
+import Hero from '@/components/_sections/homepage/Hero';
+import InfoBulletPoints from '@/components/_sections/homepage/InfoBulletPoints';
+
+/** _ui **/
 import { Button } from '@/components/_ui/Button';
 import { CTAcard } from '@/components/_ui/CTAcard';
 import { FAQ } from '@/components/_ui/FAQ';
@@ -12,8 +20,9 @@ import { TestimonialCard } from '@/components/_ui/TestimonialCard';
 
 export {
   Header,
-  Hero,
   Footer,
+  Hero,
+  InfoBulletPoints,
   Button,
   FAQ,
   Link,
