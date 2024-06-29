@@ -1,6 +1,6 @@
 import { cva, VariantProps } from 'class-variance-authority';
 
-const faqStyles = cva('collapse p-0', {
+const accordionStyles = cva('collapse p-0', {
   variants: {
     intent: {
       primary:
@@ -14,7 +14,7 @@ const faqStyles = cva('collapse p-0', {
   },
 });
 
-interface FAQProps extends VariantProps<typeof faqStyles> {
+interface AccordionProps extends VariantProps<typeof accordionStyles> {
   intent: 'primary' | 'secondary';
   items: {
     title: string;
@@ -22,14 +22,14 @@ interface FAQProps extends VariantProps<typeof faqStyles> {
   }[];
 }
 
-export const FAQ: React.FC<FAQProps> = ({ items, intent }) => {
+export const Accordion: React.FC<AccordionProps> = ({ items, intent }) => {
   return (
     <>
       {items.map((item, index) => (
-        <div key={index} className={`collapse ${faqStyles({ intent })}`}>
+        <div key={index} className={`collapse ${accordionStyles({ intent })}`}>
           <input
             type="radio"
-            name={`faq-${intent}`}
+            name={`accordion-${intent}`}
             defaultChecked={index === 0}
           />
           <div className="collapse-title">

@@ -1,13 +1,13 @@
 import { Meta, StoryObj } from '@storybook/react';
-import { FAQ } from '../components/_ui/FAQ';
+import { Accordion } from '../components/_ui/Accordion';
 
 const meta = {
-  title: 'UI/FAQ',
-  component: FAQ,
-} satisfies Meta<typeof FAQ>;
+  title: 'UI/Accordion',
+  component: Accordion,
+} satisfies Meta<typeof Accordion>;
 
 export default meta;
-type Story = StoryObj<typeof FAQ>;
+type Story = StoryObj<typeof Accordion>;
 
 export const Primary: Story = {
   args: {

@@ -13,7 +13,7 @@ import Services from '@/components/_sections/homepage/Services';
 /** _ui **/
 import { Button } from '@/components/_ui/Button';
 import { CTAcard } from '@/components/_ui/CTAcard';
-import { FAQ } from '@/components/_ui/FAQ';
+import { Accordion } from '@/components/_ui/Accordion';
 import { Link } from '@/components/_ui/Link';
 import { Modal } from '@/components/_ui/Modal';
 import { ServicesCard } from '@/components/_ui/ServicesCard';
@@ -26,7 +26,7 @@ export {
   InfoBulletPoints,
   Services,
   Button,
-  FAQ,
+  Accordion,
   Link,
   ServicesCard,
   TestimonialCard,
