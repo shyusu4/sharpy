@@ -10,6 +10,9 @@ import Hero from '@/components/_sections/homepage/Hero';
 import InfoBulletPoints from '@/components/_sections/homepage/InfoBulletPoints';
 import Services from '@/components/_sections/homepage/Services';
 import InfoAccordion from '@/components/_sections/homepage/InfoAccordion';
+import Testimonials from '@/components/_sections/homepage/Testimonials';
+import Brands from '@/components/_sections/homepage/Brands';
+import CTA from '@/components/_sections/homepage/CTA';
 
 /** _ui **/
 import { Button } from '@/components/_ui/Button';
@@ -27,6 +30,9 @@ export {
   InfoBulletPoints,
   Services,
   InfoAccordion,
+  Testimonials,
+  Brands,
+  CTA,
   Button,
   Accordion,
   Link,
