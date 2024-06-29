@@ -1,4 +1,9 @@
-import { Hero, InfoBulletPoints, Services } from '@/components/index';
+import {
+  Hero,
+  InfoBulletPoints,
+  Services,
+  InfoAccordion,
+} from '@/components/index';
 import {
   martino,
   squarestone,
@@ -18,7 +23,7 @@ import {
   pinkBlob,
   blueBlob,
 } from '@/assets/index';
-import { CTAcard, FAQ } from '@/components/index';
+import { CTAcard } from '@/components/index';
 
 export default function Home() {
   return (
@@ -64,49 +69,8 @@ export default function Home() {
         </div>
       </section> */}
       {/* <InfoBulletPoints /> */}
-      <Services />
-      {/* 
-      <section>
-        <div className="hero-content flex flex-col lg:flex-row gap-20">
-          <div>
-            <div className="flex flex-col gap-5 text-center md:text-start">
-              <h2 className="text-5xl font-semibold">
-                Start Sharp with simple steps and run your business
-              </h2>
-              <p className="w-10/12">
-                A software system allows your business to accept payments from
-                customers and keep track of sales.
-              </p>
-            </div>
-            <FAQ
-              intent="primary"
-              items={[
-                {
-                  title: 'Install the Sharp software',
-                  content:
-                    "Install the POS software. Each company's software comes with proper installation. The POS software is installed.",
-                },
-                {
-                  title: 'Connect POS scanners and other devices',
-                  content:
-                    "Install the POS software. Each company's software comes with proper installation. The POS software is installed.",
-                },
-                {
-                  title: 'Perform a test run by scanning',
-                  content:
-                    "Install the POS software. Each company's software comes with proper installation. The POS software is installed.",
-                },
-              ]}
-            />
-          </div>
-          <img src={yellowBlob.src} className="absolute w-96" />
-          <img
-            src={topPerformanceDashboard.src}
-            className="shadow-solid rounded-xl grow"
-            alt=""
-          />
-        </div>
-      </section> */}
+      {/* <Services /> */}
+      <InfoAccordion />
     </main>
   );
 }

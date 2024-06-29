@@ -9,6 +9,7 @@ import Footer from '@/components/_navigation/Footer';
 import Hero from '@/components/_sections/homepage/Hero';
 import InfoBulletPoints from '@/components/_sections/homepage/InfoBulletPoints';
 import Services from '@/components/_sections/homepage/Services';
+import InfoAccordion from '@/components/_sections/homepage/InfoAccordion';
 
 /** _ui **/
 import { Button } from '@/components/_ui/Button';
@@ -25,6 +26,7 @@ export {
   Hero,
   InfoBulletPoints,
   Services,
+  InfoAccordion,
   Button,
   Accordion,
   Link,
