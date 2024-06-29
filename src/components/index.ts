@@ -8,6 +8,7 @@ import Footer from '@/components/_navigation/Footer';
 // homepage
 import Hero from '@/components/_sections/homepage/Hero';
 import InfoBulletPoints from '@/components/_sections/homepage/InfoBulletPoints';
+import Services from '@/components/_sections/homepage/Services';
 
 /** _ui **/
 import { Button } from '@/components/_ui/Button';
@@ -23,6 +24,7 @@ export {
   Footer,
   Hero,
   InfoBulletPoints,
+  Services,
   Button,
   FAQ,
   Link,

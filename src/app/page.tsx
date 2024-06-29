@@ -1,4 +1,4 @@
-import { Hero, InfoBulletPoints } from '@/components/index';
+import { Hero, InfoBulletPoints, Services } from '@/components/index';
 import {
   martino,
   squarestone,
@@ -14,17 +14,11 @@ import {
   paymentOptions,
   reviewsRating,
   bulletPoint,
-  square1,
-  square2,
-  square3,
-  square4,
-  square5,
-  square6,
   yellowBlob,
   pinkBlob,
   blueBlob,
 } from '@/assets/index';
-import { CTAcard, ServicesCard, FAQ } from '@/components/index';
+import { CTAcard, FAQ } from '@/components/index';
 
 export default function Home() {
   return (
@@ -69,44 +63,9 @@ export default function Home() {
           />
         </div>
       </section> */}
-      <InfoBulletPoints />
-      {/* <section>
-        <h2 className="text-4xl font-semibold text-center">
-          On this platform, we offer various benefits for your use
-        </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <ServicesCard
-            icon={<img src={square1.src} alt="" />}
-            title="Sales Data"
-            content="Customer executes for the payment for goods or services and where sales taxes become payable."
-          />
-          <ServicesCard
-            icon={<img src={square2.src} alt="" />}
-            title="Inventory management"
-            content="Inventory management is a systematic approach to sourcing, storing, and the selling inventory management."
-          />
-          <ServicesCard
-            icon={<img src={square3.src} alt="" />}
-            title="Sales analytics"
-            content="Sales analytics refers to the processes used to gather sales data and gauge sales performance analysis."
-          />
-          <ServicesCard
-            icon={<img src={square4.src} alt="" />}
-            title="Employee management"
-            content="Customer management is the process of managing customer interactions throughout the customer lifecycle."
-          />
-          <ServicesCard
-            icon={<img src={square5.src} alt="" />}
-            title="Customer loyalty"
-            content="Employee management is the process of managing employee performance through relationships."
-          />
-          <ServicesCard
-            icon={<img src={square6.src} alt="" />}
-            title="Integrated payments"
-            content="Supplier management is the process of managing supplier deliverables and relationships."
-          />
-        </div>
-      </section>
+      {/* <InfoBulletPoints /> */}
+      <Services />
+      {/* 
       <section>
         <div className="hero-content flex flex-col lg:flex-row gap-20">
           <div>

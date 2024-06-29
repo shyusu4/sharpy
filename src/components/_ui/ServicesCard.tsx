@@ -8,12 +8,12 @@ interface CardProps {
 
 export const ServicesCard: React.FC<CardProps> = ({ icon, title, content }) => {
   return (
-    <div className="card w-96 bg-lightPink border-2 border-primary shadow-solid rounded-lg p-6">
-      <div className="flex flex-col lg:flex-row gap-5 items-center justify-center lg:items-start">
+    <div className="card w-fit xl:w-[26rem] h-fit bg-lightPink border-2 border-primary shadow-solid rounded-lg p-6">
+      <div className="flex flex-col xl:flex-row gap-5 items-center justify-center xl:items-start">
         <div>{icon}</div>
-        <div className="flex flex-col flex-1 text-center lg:text-left">
-          <h4 className="font-semibold text-lg">{title}</h4>
-          <p className="mt-2">{content}</p>
+        <div className="flex flex-col flex-1 text-center xl:text-left">
+          <h4 className="font-semibold text-2xl">{title}</h4>
+          <p className="mt-2 text-base">{content}</p>
         </div>
       </div>
     </div>
