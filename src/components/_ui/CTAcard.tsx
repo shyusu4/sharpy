@@ -3,18 +3,21 @@ import { cva, VariantProps } from 'class-variance-authority';
 import { Link } from '@/components/index';
 import { linkRightArrow } from '@/assets/index';
 
-const CTAcardStyles = cva('card w-[26rem] h-52 rounded-lg', {
-  variants: {
-    intent: {
-      yellow: 'bg-yellow',
-      blue: 'bg-paste',
-      pink: 'bg-pink',
+const CTAcardStyles = cva(
+  'card md:w-80 lg:w-96 xl:w-[26rem] xl:h-fit rounded-lg',
+  {
+    variants: {
+      intent: {
+        yellow: 'bg-yellow',
+        blue: 'bg-paste',
+        pink: 'bg-pink',
+      },
     },
-  },
-  defaultVariants: {
-    intent: 'yellow',
-  },
-});
+    defaultVariants: {
+      intent: 'yellow',
+    },
+  }
+);
 
 interface CardProps extends VariantProps<typeof CTAcardStyles> {
   intent: 'yellow' | 'blue' | 'pink';
