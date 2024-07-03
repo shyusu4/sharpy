@@ -25,9 +25,19 @@ module.exports = {
         green: '#00B67A',
         gray: '#393B6C',
         offBlack: '#0E0F11'
+        
       },
       boxShadow: {
         'solid': '6px 6px 0 0 rgba(8, 10, 71)',
+      },
+      keyframes: {
+        scroll: {
+          '0%': { transform: 'translateX(0)' },
+          '100%': { transform: 'translateX(-50%)' },
+        },
+      },
+      animation: {
+        scroll: 'scroll 40s linear infinite',
       },
     },
   },

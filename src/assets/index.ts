@@ -39,6 +39,9 @@ import star from '@/assets/svg/shapes/star.svg';
 import yellowBlob from '@/assets/svg/shapes/yellow-blob.svg';
 import pinkBlob from '@/assets/svg/shapes/pink-blob.svg';
 import blueBlob from '@/assets/svg/shapes/blue-blob.svg';
+import leftLine from '@/assets/svg/shapes/left-line.avif';
+import rightLine from '@/assets/svg/shapes/right-line.avif';
+import threeLines from '@/assets/svg/shapes/three-lines.svg';
 
 export {
   sharpy,
@@ -62,6 +65,9 @@ export {
   yellowBlob,
   pinkBlob,
   blueBlob,
+  leftLine,
+  rightLine,
+  threeLines,
   audreaManessis,
   dennisBargerstock,
   juleeRossignol,
