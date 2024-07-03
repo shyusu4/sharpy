@@ -3,13 +3,13 @@ import { sharpy } from '@/assets/index';
 const Footer = () => {
   return (
     <div className="mx-auto max-w-7xl">
-      <footer className="footer py-16 px-2 text-base-content border-t border-gray/10 flex justify-between">
+      <footer className="footer py-16 px-2 text-base-content border-t border-gray/10 flex flex-col md:flex-row items-center md:items-start">
         <aside>
           <a href="/">
             <img src={sharpy.src} alt="Sharpy" className="h-9 w-auto" />
           </a>
         </aside>
-        <nav className="text-lg flex flex-row grow justify-between">
+        <nav className="text-lg flex flex-col md:flex-row grow justify-between text-center md:text-left">
           <div className="flex flex-col gap-5">
             <p className="font-semibold">Company</p>
             <ul>

@@ -13,6 +13,7 @@ import InfoAccordion from '@/components/_sections/homepage/InfoAccordion';
 import Testimonials from '@/components/_sections/homepage/Testimonials';
 import Brands from '@/components/_sections/homepage/Brands';
 import CTA from '@/components/_sections/homepage/CTA';
+import FooterCTA from '@/components/_sections/homepage/FooterCTA';
 
 /** _ui **/
 import { Button } from '@/components/_ui/Button';
@@ -33,6 +34,7 @@ export {
   Testimonials,
   Brands,
   CTA,
+  FooterCTA,
   Button,
   Accordion,
   Link,
