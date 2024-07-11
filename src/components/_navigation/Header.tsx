@@ -14,13 +14,49 @@ const Header = () => {
               <li>
                 <details>
                   <summary>All Pages</summary>
-                  <ul className="p-2">
-                    <li>
-                      <a>Submenu 1</a>
-                    </li>
-                    <li>
-                      <a>Submenu 2</a>
-                    </li>
+                  <ul className="p-2 bg-offBlack text-white z-10 flex w-max">
+                    <ul>
+                      <li>
+                        <a>Homepage</a>
+                      </li>
+                      <li>
+                        <a>About</a>
+                      </li>
+                      <li>
+                        <a>Pricing</a>
+                      </li>
+                      <li>
+                        <a>Contact</a>
+                      </li>
+                    </ul>
+                    <ul>
+                      <li>
+                        <a>Case Study</a>
+                      </li>
+                      <li>
+                        <a>Case Study Details</a>
+                      </li>
+                      <li>
+                        <a>Blog</a>
+                      </li>
+                      <li>
+                        <a>Blog Details</a>
+                      </li>
+                    </ul>
+                    <ul>
+                      <li>
+                        <a>Terms</a>
+                      </li>
+                      <li>
+                        <a>Privacy</a>
+                      </li>
+                      <li>
+                        <a>Changelog</a>
+                      </li>
+                      <li>
+                        <a>404</a>
+                      </li>
+                    </ul>
                   </ul>
                 </details>
               </li>
@@ -57,7 +93,7 @@ const Header = () => {
             </div>
             <ul
               tabIndex={0}
-              className="menu bg-offBlack text-white dropdown-content w-96 rounded-box -left-80 z-10"
+              className="menu bg-offBlack text-white dropdown-content w-96 rounded-box -left-[22rem] z-10 my-5"
             >
               <li>
                 <details open>

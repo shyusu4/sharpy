@@ -3,7 +3,7 @@ import { sharpy } from '@/assets/index';
 const Footer = () => {
   return (
     <div className="mx-auto max-w-7xl">
-      <footer className="footer py-16 px-2 text-base-content border-t border-gray/10 flex flex-col md:flex-row items-center md:items-start">
+      <footer className="footer py-16 lg:px-10 xl:px-2 text-base-content border-t border-gray/10 flex flex-col lg:gap-20 xl:gap-48 lg:flex-row items-center lg:items-start">
         <aside>
           <a href="/">
             <img src={sharpy.src} alt="Sharpy" className="h-9 w-auto" />
