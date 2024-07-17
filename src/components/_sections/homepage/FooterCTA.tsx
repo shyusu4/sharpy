@@ -1,7 +1,32 @@
+'use client';
+
+import React, { useEffect, useRef } from 'react';
+import { motion, useInView, useAnimation } from 'framer-motion';
 import { leftLine, rightLine } from '@/assets/index';
 import { Button } from '@/components/_ui/Button';
 
 const FooterCTA = () => {
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once: true });
+  const controls = useAnimation();
+
+  useEffect(() => {
+    if (isInView) {
+      controls.start('visible');
+    }
+  }, [isInView]);
+
+  const createVariants = (delay: number) => ({
+    visible: {
+      opacity: 1,
+      y: 0,
+      transition: {
+        delay,
+      },
+    },
+    hidden: { opacity: 0, y: 20 },
+  });
+
   return (
     <div className="flex w-full justify-between relative max-h-96">
       <div className="relative">
@@ -11,14 +36,33 @@ const FooterCTA = () => {
       <div className="hero">
         <div className="hero-content text-center">
           <div className="max-w-2xl">
-            <h1 className="font-semibold tracking-tight text-primary text-3xl md:text-5xl">
+            <motion.h1
+              ref={ref}
+              animate={controls}
+              initial="hidden"
+              variants={createVariants(0.1)}
+              className="font-semibold tracking-tight text-primary text-3xl md:text-5xl"
+            >
               Experience the modern software service
-            </h1>
-            <p className="text-md md:text-xl py-6 md:px-8 text-gray">
+            </motion.h1>
+            <motion.p
+              ref={ref}
+              animate={controls}
+              initial="hidden"
+              variants={createVariants(0.2)}
+              className="text-md md:text-xl py-6 md:px-8 text-gray"
+            >
               Sharpy provides the best POS services and there are many benefits
               if you join us. Download now and increase your business.
-            </p>
-            <Button intent={'primary'}>Request Free Demo</Button>
+            </motion.p>
+            <motion.div
+              ref={ref}
+              animate={controls}
+              initial="hidden"
+              variants={createVariants(0.3)}
+            >
+              <Button intent={'primary'}>Request Free Demo</Button>
+            </motion.div>
           </div>
         </div>
       </div>

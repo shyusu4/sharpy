@@ -1,7 +1,32 @@
+'use client';
+
+import React, { useEffect, useRef } from 'react';
+import { motion, useInView, useAnimation } from 'framer-motion';
 import { yellowBlob, topPerformanceDashboard } from '@/assets/index';
 import { Accordion } from '@/components/index';
 
 const InfoAccordion = () => {
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once: true });
+  const controls = useAnimation();
+
+  useEffect(() => {
+    if (isInView) {
+      controls.start('visible');
+    }
+  }, [isInView]);
+
+  const createVariants = (delay: number) => ({
+    visible: {
+      opacity: 1,
+      scale: 1,
+      transition: {
+        delay,
+      },
+    },
+    hidden: { opacity: 0, scale: 0.8 },
+  });
+
   return (
     <section className="hero-content flex flex-col lg:flex-row gap-20">
       <div>
@@ -40,7 +65,11 @@ const InfoAccordion = () => {
           src={yellowBlob.src}
           className="absolute bottom-1/4 -left-16 h-auto"
         />
-        <img
+        <motion.img
+          ref={ref}
+          animate={controls}
+          initial="hidden"
+          variants={createVariants(0.2)}
           src={topPerformanceDashboard.src}
           className="relative shadow-solid rounded-xl grow"
           alt=""

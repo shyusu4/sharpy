@@ -1,3 +1,6 @@
+/** _common **/
+import { Reveal } from '@/components/_common/Reveal';
+
 /** _navigation **/
 import Header from '@/components/_navigation/Header';
 import Footer from '@/components/_navigation/Footer';
@@ -25,6 +28,7 @@ import { ServicesCard } from '@/components/_ui/ServicesCard';
 import { TestimonialCard } from '@/components/_ui/TestimonialCard';
 
 export {
+  Reveal,
   Header,
   Footer,
   Hero,
