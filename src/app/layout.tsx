@@ -23,8 +23,10 @@ export default function RootLayout({
         <main className="flex flex-col justify-center items-center gap-16 overflow-hidden">
           {children}
         </main>
-        <FooterCTA />
-        <Footer />
+        <footer>
+          <FooterCTA />
+          <Footer />
+        </footer>
       </body>
     </html>
   );

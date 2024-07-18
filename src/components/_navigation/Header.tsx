@@ -24,7 +24,7 @@ const Header = () => {
                         <a>About</a>
                       </li>
                       <li>
-                        <a>Pricing</a>
+                        <Link href="/pricing">Pricing</Link>
                       </li>
                       <li>
                         <Link href="/contact">Contact</Link>
@@ -62,7 +62,7 @@ const Header = () => {
                 </details>
               </li>
               <li>
-                <a>Pricing</a>
+                <Link href="/pricing">Pricing</Link>
               </li>
               <li>
                 <Link href="/contact">Contact</Link>
@@ -116,7 +116,7 @@ const Header = () => {
                 </details>
               </li>
               <li>
-                <a>Pricing</a>
+                <Link href="/pricing">Pricing</Link>
               </li>
               <li>
                 <Link href="/contact">Contact</Link>

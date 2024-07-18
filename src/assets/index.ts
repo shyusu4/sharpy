@@ -28,6 +28,7 @@ import gears from '@/assets/svg/icons/gears.svg';
 import mouseClicker from '@/assets/svg/icons/mouse-clicker.svg';
 import linkRightArrow from '@/assets/svg/icons/link-right-arrow.svg';
 import bulletPoint from '@/assets/svg/icons/bullet-point.svg';
+import pinkCheckmark from '@/assets/svg/icons/pink-checkmark.svg';
 
 // path: assets/svg/shapes
 import square1 from '@/assets/svg/shapes/square-1.svg';
@@ -57,6 +58,7 @@ export {
   mouseClicker,
   linkRightArrow,
   bulletPoint,
+  pinkCheckmark,
   square1,
   square2,
   square3,
