@@ -8,12 +8,10 @@ import {
 } from '@/assets/index';
 import { TestimonialCard } from '@/components/index';
 
-// TODO: Fix the infinte scroll issue where theres a gap after the last testimonial
-
 const Testimonials = () => {
   return (
-    <section className="flex flex-col gap-10 items-center pb-24">
-      <h2 className="text-4xl md:text-5xl font-semibold text-center lg:w-7/12">
+    <section className="flex flex-col gap-10 items-center pb-32">
+      <h2 className="text-4xl md:text-5xl font-semibold text-center w-96 md:w-1/4 lg:w-2/6">
         Our beloved clients share their Sharp experience
       </h2>
       <div className="flex gap-5 animate-scroll w-max">
