@@ -11,7 +11,7 @@ import {
 
 export default function Home() {
   return (
-    <main className="max-w-auto flex flex-col justify-center items-center gap-16 overflow-hidden">
+    <>
       <Hero />
       <Brands />
       <CTA />
@@ -20,6 +20,6 @@ export default function Home() {
       <InfoAccordion />
       <Testimonials />
       <FooterCTA />
-    </main>
+    </>
   );
 }

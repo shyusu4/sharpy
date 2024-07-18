@@ -18,9 +18,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={jakartaSans.className}>
+      <body className={`${jakartaSans.className} text-primary`}>
         <Header />
-        {children}
+        <main className="flex flex-col justify-center items-center gap-16 overflow-hidden">
+          {children}
+        </main>
         <Footer />
       </body>
     </html>

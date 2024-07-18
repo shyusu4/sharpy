@@ -1,9 +1,10 @@
+import Link from 'next/link';
 import { sharpy } from '@/assets/index';
 import { Button } from '@/components/index';
 
 const Header = () => {
   return (
-    <div className="mx-auto max-w-7xl px-4 py-6 lg:px-8 lg:py-4">
+    <header className="mx-auto max-w-7xl px-4 py-6 lg:px-8 lg:py-4">
       <nav className="navbar font-semibold text-primary flex justify-between">
         <div className="flex items-center md:gap-x-12">
           <a href="/">
@@ -26,7 +27,7 @@ const Header = () => {
                         <a>Pricing</a>
                       </li>
                       <li>
-                        <a>Contact</a>
+                        <Link href="/contact">Contact</Link>
                       </li>
                     </ul>
                     <ul>
@@ -64,7 +65,7 @@ const Header = () => {
                 <a>Pricing</a>
               </li>
               <li>
-                <a>Contact</a>
+                <Link href="/contact">Contact</Link>
               </li>
             </ul>
           </div>
@@ -118,13 +119,13 @@ const Header = () => {
                 <a>Pricing</a>
               </li>
               <li>
-                <a>Contact</a>
+                <Link href="/contact">Contact</Link>
               </li>
             </ul>
           </div>
         </div>
       </nav>
-    </div>
+    </header>
   );
 };
 

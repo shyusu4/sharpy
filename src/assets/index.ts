@@ -23,6 +23,7 @@ import waverio from '@/assets/svg/logos/waverio.svg';
 
 // path: assets/svg/icons
 import dollarSign from '@/assets/svg/icons/dollar-sign.svg';
+import envelope from '@/assets/svg/icons/envelope.svg';
 import gears from '@/assets/svg/icons/gears.svg';
 import mouseClicker from '@/assets/svg/icons/mouse-clicker.svg';
 import linkRightArrow from '@/assets/svg/icons/link-right-arrow.svg';
@@ -51,6 +52,7 @@ export {
   virogan,
   waverio,
   dollarSign,
+  envelope,
   gears,
   mouseClicker,
   linkRightArrow,
