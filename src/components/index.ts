@@ -1,11 +1,9 @@
 /** _navigation **/
 import Header from '@/components/_navigation/Header';
 import Footer from '@/components/_navigation/Footer';
+import FooterCTA from '@/components/_navigation/FooterCTA';
 
 /** _sections **/
-// _common
-import FooterCTA from '@/components/_sections/_common/FooterCTA';
-
 // homepage
 import Hero from '@/components/_sections/homepage/Hero';
 import InfoBulletPoints from '@/components/_sections/homepage/InfoBulletPoints';

@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import { Plus_Jakarta_Sans } from 'next/font/google';
-import { Header, Footer } from '@/components/index';
+import { Header, Footer, FooterCTA } from '@/components/index';
 import './globals.css';
 
 const jakartaSans = Plus_Jakarta_Sans({ subsets: ['latin'] });
@@ -23,6 +23,7 @@ export default function RootLayout({
         <main className="flex flex-col justify-center items-center gap-16 overflow-hidden">
           {children}
         </main>
+        <FooterCTA />
         <Footer />
       </body>
     </html>

@@ -1,10 +1,9 @@
-import { FooterCTA, ContactInfo } from '@/components/index';
+import { ContactInfo } from '@/components/index';
 
 export default function Contact() {
   return (
     <>
       <ContactInfo />
-      <FooterCTA />
     </>
   );
 }

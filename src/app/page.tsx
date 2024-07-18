@@ -6,7 +6,6 @@ import {
   Services,
   InfoAccordion,
   Testimonials,
-  FooterCTA,
 } from '@/components/index';
 
 export default function Home() {
@@ -19,7 +18,6 @@ export default function Home() {
       <Services />
       <InfoAccordion />
       <Testimonials />
-      <FooterCTA />
     </>
   );
 }

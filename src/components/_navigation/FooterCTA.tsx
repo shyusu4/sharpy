@@ -35,7 +35,7 @@ const FooterCTA = () => {
       </div>
       <div className="hero">
         <div className="hero-content text-center">
-          <div className="max-w-2xl">
+          <div className="w-full md:max-w-2xl absolute z-10 p-5 md:p-0">
             <motion.h1
               ref={ref}
               animate={controls}
@@ -66,7 +66,7 @@ const FooterCTA = () => {
           </div>
         </div>
       </div>
-      <div className="relative">
+      <div className="relative -z-10">
         <img src={rightLine.src} alt="" className="h-fit"></img>
         <div className="absolute -inset-20 -z-10 top-0 right-0 w-64 h-64 bg-[radial-gradient(ellipse_at_center,_#EA7DD2_39.0625%,_rgba(234,125,210,0)_100%)] blur-[130.746px] rounded-full opacity-100"></div>
       </div>
