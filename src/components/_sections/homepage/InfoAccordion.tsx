@@ -28,7 +28,7 @@ const InfoAccordion = () => {
   });
 
   return (
-    <section className="hero-content flex flex-col lg:flex-row gap-20">
+    <section className="hero-content flex flex-col lg:flex-row gap-20 py-20">
       <div>
         <div className="flex flex-col gap-5 text-center items-center justify-center md:text-start">
           <h2 className="text-4xl md:text-5xl font-semibold">
@@ -63,7 +63,7 @@ const InfoAccordion = () => {
       <div className="relative flex-shrink-0">
         <img
           src={yellowBlob.src}
-          className="absolute bottom-1/4 -left-16 h-auto"
+          className="absolute bottom-1/4 -left-16 h-auto hidden md:block"
         />
         <motion.img
           ref={ref}

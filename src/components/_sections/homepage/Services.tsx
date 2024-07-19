@@ -35,7 +35,7 @@ const Services = () => {
   });
 
   return (
-    <section className="px-7 flex flex-col items-center justify-center gap-10 md:gap-20">
+    <section className="px-7 pb-5 flex flex-col items-center justify-center gap-10 md:gap-20">
       <h2 className="text-4xl md:text-5xl font-semibold text-center lg:w-2/3 xl:w-1/2">
         On this platform, we offer various benefits for your use
       </h2>

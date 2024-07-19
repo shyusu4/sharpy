@@ -24,8 +24,9 @@ module.exports = {
         lightGreen: '#E6FFD7',
         green: '#00B67A',
         gray: '#393B6C',
+        gray2: '#D9D9D9',
+        lightGray: '#F2F3F6',
         offBlack: '#0E0F11'
-        
       },
       boxShadow: {
         'solid': '6px 6px 0 0 rgba(8, 10, 71)',

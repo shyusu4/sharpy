@@ -37,7 +37,7 @@ const Hero = () => {
               animate={controls}
               initial="hidden"
               variants={createVariants(0.1)}
-              className="font-semibold tracking-tight text-primary text-3xl md:text-5xl lg:text-6xl xl:text-[4.8rem]"
+              className="font-semibold tracking-tight text-3xl md:text-5xl lg:text-6xl xl:text-[4.8rem]"
             >
               Turn visitors into
               <br /> paid customers fast.

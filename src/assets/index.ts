@@ -5,13 +5,32 @@ import moonspaceTimeline from '@/assets/img/content/moonspace-timeline.webp';
 import paymentOptions from '@/assets/img/content/payment-options.webp';
 import reviewsRating from '@/assets/img/content/reviews-rating.webp';
 import topPerformanceDashboard from '@/assets/img/content/top-performance-dashboard.webp';
+import coffeChat from '@/assets/img/content/coffee-chat.avif';
+import livingSpace from '@/assets/img/content/living-space.avif';
+import meeting from '@/assets/img/content/meeting.avif';
+import manWorking from '@/assets/img/content/man-working.avif';
+import womanWorking from '@/assets/img/content/woman-working.avif';
 
-// path: assets/img/users
-import audreaManessis from '@/assets/img/users/audrea-manessis.jpg';
-import dennisBargerstock from '@/assets/img/users/dennis-bargerstock.jpg';
-import juleeRossignol from '@/assets/img/users/julee-rossignol.jpg';
-import lareeMinton from '@/assets/img/users/laree-minton.jpg';
-import guadalupeDesimon from '@/assets/img/users/guadalupe-desimon.jpg';
+// path: assets/img/avatar/testimonials
+import audreaManessis from '@/assets/img/avatar/testimonials/audrea-manessis.jpg';
+import dennisBargerstock from '@/assets/img/avatar/testimonials/dennis-bargerstock.jpg';
+import juleeRossignol from '@/assets/img/avatar/testimonials/julee-rossignol.jpg';
+import lareeMinton from '@/assets/img/avatar/testimonials/laree-minton.jpg';
+import guadalupeDesimon from '@/assets/img/avatar/testimonials/guadalupe-desimon.jpg';
+
+// path: assets/img/avatar/team
+import alfonzoSchuessler from '@/assets/img/avatar/team/alfonzo-schuessler.avif';
+import augustinaMidgett from '@/assets/img/avatar/team/augustina-midgett.avif';
+import bryanMckinney from '@/assets/img/avatar/team/bryan-mckinney.avif';
+import clintonMcclure from '@/assets/img/avatar/team/clinton-mcclure.avif';
+import darronKulikowski from '@/assets/img/avatar/team/darron-kulikowski.avif';
+import darylNehls from '@/assets/img/avatar/team/daryl-nehls.avif';
+import kyleeDanford from '@/assets/img/avatar/team/kylee-danford.avif';
+import lauraleeQuintero from '@/assets/img/avatar/team/lauralee-quintero.avif';
+import lavernLaboy from '@/assets/img/avatar/team/lavern-laboy.avif';
+import rodolfoGoode from '@/assets/img/avatar/team/rodolfo-goode.avif';
+import sanjuanitaOrdonez from '@/assets/img/avatar/team/sanjuanita-ordonez.avif';
+import williamPurnell from '@/assets/img/avatar/team/william-purnell.avif';
 
 // path: assets/svg/logos
 import martino from '@/assets/svg/logos/martino.svg';
@@ -43,6 +62,8 @@ import pinkBlob from '@/assets/svg/shapes/pink-blob.svg';
 import blueBlob from '@/assets/svg/shapes/blue-blob.svg';
 import leftLine from '@/assets/svg/shapes/left-line.avif';
 import rightLine from '@/assets/svg/shapes/right-line.avif';
+import leftThickLine from '@/assets/svg/shapes/left-thick-line.svg';
+import rightThickLine from '@/assets/svg/shapes/right-thick-line.svg';
 import threeLines from '@/assets/svg/shapes/three-lines.svg';
 
 export {
@@ -71,7 +92,21 @@ export {
   blueBlob,
   leftLine,
   rightLine,
+  leftThickLine,
+  rightThickLine,
   threeLines,
+  alfonzoSchuessler,
+  augustinaMidgett,
+  bryanMckinney,
+  clintonMcclure,
+  darronKulikowski,
+  darylNehls,
+  kyleeDanford,
+  lauraleeQuintero,
+  lavernLaboy,
+  rodolfoGoode,
+  sanjuanitaOrdonez,
+  williamPurnell,
   audreaManessis,
   dennisBargerstock,
   juleeRossignol,
@@ -83,4 +118,9 @@ export {
   paymentOptions,
   reviewsRating,
   topPerformanceDashboard,
+  coffeChat,
+  livingSpace,
+  meeting,
+  manWorking,
+  womanWorking,
 };

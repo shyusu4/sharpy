@@ -28,7 +28,7 @@ const FooterCTA = () => {
   });
 
   return (
-    <div className="flex w-full justify-between relative max-h-96">
+    <div className="flex w-full justify-between relative max-h-96 overflow-hidden">
       <div className="relative">
         <img src={leftLine.src} alt="" className="h-fit"></img>
         <div className="absolute inset-0 -z-10 top-0 right-0 bg-[radial-gradient(50%_50%_at_50%_50%,_rgb(69,201,193)_39.0625%,_rgba(69,201,193,0)_100%)] filter blur-[123.134px] rounded-full opacity-100"></div>

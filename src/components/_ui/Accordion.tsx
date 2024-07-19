@@ -1,6 +1,6 @@
 import { cva, VariantProps } from 'class-variance-authority';
 
-const accordionStyles = cva('collapse p-0', {
+const accordionStyles = cva('collapse p-0 max-w-2xl', {
   variants: {
     intent: {
       primary:
