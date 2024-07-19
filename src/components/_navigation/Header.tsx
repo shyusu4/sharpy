@@ -18,10 +18,10 @@ const Header = () => {
                   <ul className="p-2 bg-offBlack text-white z-10 flex w-max">
                     <ul>
                       <li>
-                        <a>Homepage</a>
+                        <Link href="/">Homepage</Link>
                       </li>
                       <li>
-                        <a>About</a>
+                        <Link href="/about">About</Link>
                       </li>
                       <li>
                         <Link href="/pricing">Pricing</Link>
@@ -101,10 +101,10 @@ const Header = () => {
                   <summary>All Pages</summary>
                   <ul>
                     <li>
-                      <a>Homepage</a>
+                      <Link href="/">Homepage</Link>
                     </li>
                     <li>
-                      <a>About</a>
+                      <Link href="/about">About</Link>
                     </li>
                     <li>
                       <a>Services</a>

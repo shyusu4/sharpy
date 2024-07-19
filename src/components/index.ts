@@ -13,6 +13,9 @@ import Services from '@/components/_sections/homepage/Services';
 import InfoAccordion from '@/components/_sections/homepage/InfoAccordion';
 import Brands from '@/components/_sections/homepage/Brands';
 import CTA from '@/components/_sections/homepage/CTA';
+//about
+import OurStory from '@/components/_sections/about/OurStory';
+import TeamCards from '@/components/_sections/about/TeamCards';
 // contact
 import ContactInfo from '@/components/_sections/contact/ContactInfo';
 //pricing
@@ -24,6 +27,7 @@ import { Button } from '@/components/_ui/Button';
 import { ContactForm } from '@/components/_ui/ContactForm';
 import { CTAcard } from '@/components/_ui/CTAcard';
 import { Accordion } from '@/components/_ui/Accordion';
+import { AvatarCard } from '@/components/_ui/AvatarCard';
 import { Link } from '@/components/_ui/Link';
 import { Modal } from '@/components/_ui/Modal';
 import { PricingCard } from '@/components/_ui/PricingCard';
@@ -44,7 +48,10 @@ export {
   FooterCTA,
   Button,
   Accordion,
+  AvatarCard,
   Link,
+  OurStory,
+  TeamCards,
   PricingTable,
   PricingFAQ,
   PricingCard,
