@@ -4,6 +4,10 @@
 
 /* Typography */
 @layer base {
+  /* body {
+    background-color: white;
+  } */
+
   h1,
   h2,
   h3,

@@ -9,8 +9,8 @@ const Footer = () => {
             <img src={sharpy.src} alt="Sharpy" className="h-9 w-auto" />
           </a>
         </aside>
-        <nav className="text-lg flex flex-col md:flex-row grow justify-between text-center md:text-left">
-          <div className="flex flex-col gap-5">
+        <nav className="text-lg grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 text-center lg:text-left grow">
+          <div className="flex flex-col gap-5 items-center justify-center mx-auto lg:items-start">
             <p className="font-semibold">Company</p>
             <ul>
               <li>

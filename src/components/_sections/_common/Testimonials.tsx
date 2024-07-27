@@ -14,7 +14,7 @@ const Testimonials = () => {
       <h2 className="text-4xl md:text-5xl font-semibold text-center w-96 md:w-1/4 lg:w-2/6">
         Our beloved clients share their Sharp experience
       </h2>
-      <div className="flex gap-5 animate-scroll w-max">
+      <div className="flex gap-5 w-max">
         <TestimonialCard
           intent="pink"
           icon={<img src={audreaManessis.src} alt="Audrea Manessis" />}

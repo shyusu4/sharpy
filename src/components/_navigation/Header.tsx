@@ -18,44 +18,92 @@ const Header = () => {
                   <ul className="p-2 bg-offBlack text-white z-10 flex w-max">
                     <ul>
                       <li>
-                        <Link href="/">Homepage</Link>
+                        <Link href="/" className="hover:text-deepPink">
+                          Homepage
+                        </Link>
                       </li>
                       <li>
-                        <Link href="/about">About</Link>
+                        <Link href="/about" className="hover:text-deepPink">
+                          About
+                        </Link>
                       </li>
                       <li>
-                        <Link href="/pricing">Pricing</Link>
+                        <Link href="/pricing" className="hover:text-deepPink">
+                          Pricing
+                        </Link>
                       </li>
                       <li>
-                        <Link href="/contact">Contact</Link>
-                      </li>
-                    </ul>
-                    <ul>
-                      <li>
-                        <a>Case Study</a>
-                      </li>
-                      <li>
-                        <a>Case Study Details</a>
-                      </li>
-                      <li>
-                        <a>Blog</a>
-                      </li>
-                      <li>
-                        <a>Blog Details</a>
+                        <Link href="/contact" className="hover:text-deepPink">
+                          Contact
+                        </Link>
                       </li>
                     </ul>
                     <ul>
                       <li>
-                        <a>Terms</a>
+                        <span className="flex items-center gap-1">
+                          Case Study
+                          <span className="badge badge-neutral uppercase">
+                            Coming Soon
+                          </span>
+                        </span>
                       </li>
                       <li>
-                        <a>Privacy</a>
+                        <span className="flex items-center gap-1">
+                          Case Study Details
+                          <span className="badge badge-neutral uppercase">
+                            Coming Soon
+                          </span>
+                        </span>
                       </li>
                       <li>
-                        <a>Changelog</a>
+                        <span className="flex items-center gap-1">
+                          Blog
+                          <span className="badge badge-neutral uppercase">
+                            Coming Soon
+                          </span>
+                        </span>
                       </li>
                       <li>
-                        <a>404</a>
+                        <span className="flex items-center gap-1">
+                          Blog Details
+                          <span className="badge badge-neutral uppercase">
+                            Coming Soon
+                          </span>
+                        </span>
+                      </li>
+                    </ul>
+                    <ul>
+                      <li>
+                        <span className="flex items-center gap-1">
+                          Terms
+                          <span className="badge badge-neutral uppercase">
+                            Coming Soon
+                          </span>
+                        </span>
+                      </li>
+                      <li>
+                        <span className="flex items-center gap-1">
+                          Privacy
+                          <span className="badge badge-neutral uppercase">
+                            Coming Soon
+                          </span>
+                        </span>
+                      </li>
+                      <li>
+                        <span className="flex items-center gap-1">
+                          Changelog
+                          <span className="badge badge-neutral uppercase">
+                            Coming Soon
+                          </span>
+                        </span>
+                      </li>
+                      <li>
+                        <span className="flex items-center gap-1">
+                          404
+                          <span className="badge badge-neutral uppercase">
+                            Coming Soon
+                          </span>
+                        </span>
                       </li>
                     </ul>
                   </ul>
@@ -101,25 +149,43 @@ const Header = () => {
                   <summary>All Pages</summary>
                   <ul>
                     <li>
-                      <Link href="/">Homepage</Link>
+                      <Link href="/" className="hover:text-deepPink">
+                        Homepage
+                      </Link>
                     </li>
                     <li>
-                      <Link href="/about">About</Link>
+                      <Link href="/about" className="hover:text-deepPink">
+                        About
+                      </Link>
                     </li>
                     <li>
-                      <a>Services</a>
+                      <span className="flex items-center gap-1">
+                        Services
+                        <span className="badge badge-neutral uppercase">
+                          Coming Soon
+                        </span>
+                      </span>
                     </li>
                     <li>
-                      <a>Blog</a>
+                      <span className="flex items-center gap-1">
+                        Blog
+                        <span className="badge badge-neutral uppercase">
+                          Coming Soon
+                        </span>
+                      </span>
                     </li>
                   </ul>
                 </details>
               </li>
               <li>
-                <Link href="/pricing">Pricing</Link>
+                <Link href="/pricing" className="hover:text-deepPink">
+                  Pricing
+                </Link>
               </li>
               <li>
-                <Link href="/contact">Contact</Link>
+                <Link href="/contact" className="hover:text-deepPink">
+                  Contact
+                </Link>
               </li>
             </ul>
           </div>

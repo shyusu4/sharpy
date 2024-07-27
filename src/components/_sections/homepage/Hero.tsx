@@ -68,7 +68,7 @@ const Hero = () => {
             <div className="absolute inset-0 -z-10 -top-24 -left-16 w-[30%] aspect-square bg-[radial-gradient(50%_50%_at_50%_50%,_rgb(69,201,193)_39.0625%,_rgba(69,201,193,0)_100%)] filter blur-[123.134px] rounded-full opacity-100"></div>
             <motion.img
               src={mainDashboard.src}
-              className="relative rounded-t-3xl"
+              className="relative rounded-t-3xl w-[90%] mx-auto"
               animate={controls}
               initial="hidden"
               variants={{
@@ -89,7 +89,10 @@ const Hero = () => {
                 },
               }}
             />
-            <img src={threeLines.src} className="absolute -top-24 -right-20" />
+            <img
+              src={threeLines.src}
+              className="hidden md:inline-block absolute md:-top-14 lg:-top-20 lg:-right-8 md:-right-3 lg:h-auto h-1/4"
+            />
             {/* <div className="absolute -inset-20 -z-10 w-[30%] aspect-square bg-[radial-gradient(50%_50%_at_50%_50%,_#EA7DD2_39.0625%,_rgba(234,125,210,0)_100%)] filter blur-[130.746px] rounded-full opacity-100"></div> */}
           </div>
         </div>
